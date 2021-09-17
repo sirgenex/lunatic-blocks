@@ -1,0 +1,9 @@
+name: lunatic-blocks
+version: 1.0
+author: SrGeneX
+main: br.com.lunaticmc.blocks.Blocks
+softdepend:
+  - PlaceholderAPI
+commands:
+  blocks:
+    aliases: [blocos, block, bloco]

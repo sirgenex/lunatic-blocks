@@ -1,0 +1,38 @@
+permission: "lunatic.coord"
+task_timer: 10 #minutos
+messages:
+  without_permission:
+    - "&cVocê não tem permissão para executar esse comando."
+  balance:
+    you:
+      - "&7Você possui &a{balance} &7de blocos quebrados."
+    others:
+      - "&7O jogador {player} possui &a{balance} &7de blocos quebrados."
+  help:
+    normal:
+      - "&6Comandos - LunaticBlocks"
+      - ""
+      - "&7/blocos &8- &fVer a quantia de blocos quebrados na sua conta."
+      - ""
+    admin:
+      - "&6Comandos - LunaticBlocks"
+      - ""
+      - "&7/blocos &8- &fVer a quantia de blocos quebrados em sua conta."
+      - "&7/blocos definir (player) (quantia) &8- &fDefinir uma quantia de blocos quebrados para um jogador."
+      - "&7/blocos adicionar (player) (quantia) &8- &fAdicionar uma quantia de blocos quebrados para um jogador."
+      - "&7/blocos remover (player) (quantia) &8- &fRemover uma quantia de blocos quebrados de um jogador."
+      - ""
+  invalid_integer:
+    - "&cEssa quantia é inválida."
+  player_without_money:
+    - "&cO jogador {player} não tem blocos quebrados suficiente."
+  without_money:
+    - "&cVocê não tem blocos quebrados suficiente."
+  inexistent_player:
+    - "&cEsse jogador nunca jogou no servidor."
+  setted:
+    - "&aVocê setou {amount} de blocos quebrados na conta de {player} com sucesso."
+  added:
+    - "&aVocê adicionou {amount} de blocos quebrados na conta de {player} com sucesso, agora ele possui {balance}."
+  removed:
+    - "&aVocê removeu {amount} de blocos quebrados da conta de {player} com sucesso, agora ele possui {balance}."
